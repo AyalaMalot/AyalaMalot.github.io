@@ -3,12 +3,12 @@
       <head>
          <link rel="stylesheet" href="./StyleSheet1.css"/>
 
-
       </head>
       <body>
-          <h1>FSWD</h1>  
-          <h3>קורס הכשרה</h3>
-          <br />
+          <h1>FSWD</h1>
+          
+          <h3>קורס הכשרה</h3><br />
+          
           <img id="logo" src="./1.jpg" alt="logo" />
           
           <ul>
@@ -16,19 +16,22 @@
               <li><a href="#table">משתתפים</a></li>
               <li><a href="#img1">רשמים</a><a href="#img2"></a><a href="#img3"></a></li>
           </ul>
+          
           <div dir="rtl" id="divush" ">
+                                      
               <p id="descrip">
                  ROM – הוא זיכרון לקריאה בלבד, שהנתונים נשמרים עליו כבר אצל היצרן, השם ניתן לזיכרון כיון שבעבר לא היתה אפשרות לשנות את הנתונים שעל הרכיב. כיום, הרכיבים כבר ניתנים גם לכתיבה ולא רק לקריאה, אולם השם נשאר, בנוסף כדאי מאוד להזהר בשינוי הנתונים על הרכיב, כיון שטעות בשינוי יכולה לגרום לרכיבים להפסיק לעבוד, במקרה שלנו, גם למחשב... כשאנחנו מפעילים את המחשב, אין למעבד נתונים כלשהם שהוא יכול להפעיל מע"ה כיון שהמערכת שמורה בכונן חיצוני (בד"כ C, אולם יכול להיות גם דיסק או דיסק און קי), זיכרון ה – RAM מאופס כיון שזו חלק מתכונותיו להתאפס בכל הדלקת מחשב, ואם כן מהיכן המחשב יידע כיצד לעלות?
               </p>
+              
               <table id="table">
+                               
                   <tr>
                       <th>שם</th>
                       <th>טלפון</th>
                       <th>מייל</th>
                       <th>ברכה</th>
-
-
                   </tr>
+                               
                   <tr>
                       <td>אפרת</td>
                       <td>0504100589</td>
@@ -39,6 +42,7 @@
                           </audio>
                       </td>
                   </tr>
+                                                  
                   <tr>
                       <td>אילה</td>
                       <td>0627148795</td>
@@ -49,6 +53,7 @@
                           </audio>
                       </td>
                   </tr>
+                                                  
                   <tr>
                       <td>שרה</td>
                       <td>031457666</td>
@@ -59,6 +64,7 @@
                           </audio>
                       </td>
                   </tr>
+                                                  
                   <tr>
                       <td>גילה</td>
                       <td>123456789</td>
@@ -69,6 +75,7 @@
                           </audio>
                       </td>
                   </tr>
+                                                  
                   <tr>
                       <td>שושנה</td>
                       <td>026512345</td>
@@ -79,28 +86,32 @@
                           </audio>
                       </td>
                   </tr>
+                                                
               </table>
               <br />
               <br />
+                                                
               <img id="img1" src="./2.JPG" alt="img1" />
               <img id="img2" src="./3.jpg" alt="img2" />
               <img id="img3" src="./4.jpg" alt="img3" /><br />
-              <video controls>
+              
+               <video controls>
                   <source src="./vid1.mp4" />
-
-              </video>
+               </video>
+              
               <video controls>
                   <source src="./vid2.mp4" />
-
               </video>
-              
-
+           
+          <div>  
               <h4> מידע נוסף</h4>
               <p>
                  לצורך זה ישנה תוכנה בסיסית שנקראת BIOS ר"ת basic input output system שמשמעותה מערכת קלט פלט בסיסית, כלומר, זו מערכת שבזמן הדלקת המחשב מבצעת מספר פעולות כדי לתאר למעבד את סביבת העבודה שאיתה הוא עובד:
               </p>
               <a href="https://www.w3schools.com/cssref/pr_pos_top.asp" alt="îéãò">לחץ למידע נוסף</a> <br /><br />
-              <form>
+          </div>
+        
+          <form>
 
                   <label for="name1">שם פרטי:</label> <br />
                   <input type="text" id="name1" name="name1" required /> <br />
@@ -109,25 +120,25 @@
                   <label for="name3">זכר</label>
                   <input type="checkbox" id="name3" name="name3" value="male" />
                   <label for="name4">נקבה<label>
-                          <input type="checkbox" id="name4" name="name4" value="female" /> <br />
-                          <label for="city">עיר מגורים:</label><br />
-                          <input list="city" required />
-                          <datalist id="city">
-                              <option value="Jerusalem" /></option>
-                              <option value="Haifa" />חיפה</option>
-                              <option value="Bnei Brak" />בני ברק</option>
-                              <option value="Jaffa" />יפו</option>
-                              <option value="Tel Aviv" />תל אביב</option>
-                          </datalist><br />
-                          <label for="message">אני מאשר קבלת הודעות ופרסומות</label>
-                          <input type="radio" id="message" name="message"/><br />
+                  <input type="checkbox" id="name4" name="name4" value="female" /> <br />
+                  <label for="city">עיר מגורים:</label><br />
+                  <input list="city" required />
+                  <datalist id="city">
+                         <option value="ירושלים" /></option>
+                         <option value="חיפה" /></option>
+                         <option value="בני ברק" /></option>
+                         <option value="יפו" /></option>
+                         <option value="תל אביב" /></option>
+                  </datalist><br />
+                  <label for="message">אני מאשר קבלת הודעות ופרסומות</label>
+                  <input type="radio" id="message" name="message"/><br />
+                  <input type="submit" name="submit" id="submit" value="אישור" />
 
-                          <input type="submit" name="submit" id="submit" value="אישור" />
 
-<h1>buhb<h1>
               </form>
           </div>
           
       </body>
+
 </html>
     
