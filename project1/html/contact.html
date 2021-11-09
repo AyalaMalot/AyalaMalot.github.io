@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html dir="rtl">
+    <head>
+        <link rel="stylesheet" href="../style/contact-page.css">
+
+    </head>
+    <body>
+        <header>
+            <h1>לאוניד אפרמוב</h1>
+            
+        </header>
+        <nav>
+            
+            <h4><a href="../index.html">עמוד הבית</a></h4>
+            <h4><a href="./about.html">אודות אפרמוב</a></h4>
+            <h4><a href="./gallery.html">גלריה</a></h4>
+            <h4><a href="./contact.html">לרכישה</a></h4>
+
+    </nav>
+    
+        <main>
+            <h5>נקודות מכירה (ישראל):</h5>
+            <div id="con">
+                <table id="table">
+                        <tr>
+                            <th>גלריה</th>
+                            <th>עיר</th>
+                            <th>כתובת</th>
+                            <th>טלפון</th>
+                        </tr>
+                        <tr>
+                            <td>האומן</td>
+                            <td>ירושלים</td>
+                            <td>זאב חקלאי 4</td>
+                            <td>0777969698</td>
+                        </tr>
+                        <tr>
+                            <td>גלרית קאבוצ'י</td>
+                            <td>תל אביב</td>
+                            <td>זבוטינסקי 19</td>
+                            <td>062718795</td>
+                        </tr>
+                        <tr>
+                            <td>שוהם גלרי</td>
+                            <td>גבעתיים</td>
+                            <td>קפלינסקי 1</td>
+                            <td>031457666</td>
+                        </tr>
+                        <tr>
+                            <td>הפנתר</td>
+                            <td>יריחו</td>
+                            <td>מצפה ים המלח 6</td>
+                            <td>046528289</td>
+                        </tr>
+                        <tr>
+                            <td>שושנה</td>
+                            <td>בני ברק</td>
+                            <td>רבי עקיבא 216</td>
+                            <td>096638345</td>
+                        </tr>
+                    </table>
+                    <div>
+                    <!-- <iframe src="https://www.google.co.il/maps/dir/32.0825244,34.7459412/%D7%92%D7%
+                    9C%D7%A8%D7%99%D7%94+%D7%99%D7%A4%D7%95,+David+Razi'el+St+7,+
+                    Tel+Aviv-Yafo%E2%80%AD/@32.0587409,34.7455979,14z/data=!4m9!4m8!1m0!1m5!1m1!1s0x151d
+                    4cbdc7c6aaab:0x9e35de702b6a81c4!2m2!1d34.7587458!2d32.056433!3e3?hl=en-GB"
+                     title="google maps"></iframe> -->
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3381.4762078747663!2d34.756590515119214!3d32.05636638119562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d4cbdc7c6aaab%3A0x9e35de702b6a81c4!2z15LXnNeo15nXlCDXmdek15U!5e0!3m2!1sen!2sil!4v1635456405609!5m2!1sen!2sil" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                     <h5 id="map">מפת הגעה לגלרית הבית, רזיאל 5 יפו</h5>
+            </div>
+                    
+                     
+
+                <form>
+
+                        <label for="name1">שם פרטי:</label> <br />
+                        <input type="text" id="name1" name="name1" required pattern="[a-z A-Z]{5,20}"/> <br>
+                        <label for="name2">שם משפחה:</label> <br />
+                        <input type="text" id="name2" name="name2" required pattern="[a-z A-Z]{5,20}"/> <br>
+                        <label for="phone"> טלפון:</label> <br />
+                        <input type="text" id="phone" name="phone" required pattern="[0-9]{8,11}"/> <br>
+                        <label for="Email">מייל:</label> <br />
+                        <input type="text" id="Email" name="Email" required  /> <br>
+                        <label for="gallery">בחר גלריה:</label><br />
+                        <input list="gallery" required />
+                        <datalist id="gallery">
+                               <option value="האומן"></option>
+                               <option value="גלרית קאבוצ'י" ></option>
+                               <option value="שהם גלרי" ></option>
+                               <option value="הפנתר" ></option>
+                               <option value="שושנה"></option>
+                        </datalist><br /><br>
+                        <textarea id="order" name="order" maxlength="150" placeholder="הקלד את בקשתך" rows="5" cols="30" required  pattern="[0-9 a-z A-Z]{10,150}"></textarea><br>
+                        <input type="radio" id="message" name="message"/>
+                        <label for="message">אני מאשר קבלת הודעות ופרסומות</label><br><br>
+                        <input type="submit" name="submit" id="submit" value="שליחת בקשה" /><br>
+                        <label for="submit">ניצור איתך קשר עד 24 שעות משליחת בקשתך</label><br>
+                    </form>
+                    </div>
+        </main>
+        <footer>
+            כל הזכויות שמורות לאילה&אילה <a id="mail" href="mailto:double-ayala@gmail.com">double-ayala@gmail.com</a>
+        </footer>
+
+    </body>
+</html>

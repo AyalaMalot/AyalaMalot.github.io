@@ -1,0 +1,301 @@
+body{
+    background-color:rgb(166, 250, 211);
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+  }
+  header{
+    font-size: 2em;
+    padding:0px;
+    margin:0px;
+    text-align: center;
+    color: rgb(38, 117, 87);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  nav{
+    background-color: rgb(52, 114, 111);
+    display: flex;
+    flex:1;
+    justify-content:space-around;
+    height:5em;
+    width:100%;
+   
+   
+  }
+  a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: rgb(235, 238, 241);
+    border-left:rgb(255, 255, 255) solid 1px;
+    border-right:rgb(255, 255, 255) solid 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+ 
+ 
+  }
+  a:hover{
+    color:rgb(2, 25, 32);
+  }
+  h4{
+    font-size: 1.3em;
+    font-style: unset;
+ 
+}
+
+
+.years-list{
+  color: rgb(52, 114, 111);
+  text-decoration: underline;
+  border: none;
+}
+h3{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(52, 114, 111);
+  font-size:1.5em;
+  text-align: center;
+}
+#div-1{
+  display:grid;
+  grid-gap:5px;
+  grid-template-areas: 
+  "a a a b e e"
+  "a a a b e e"
+  "c d d d e e"
+  "c d d d e e";
+  width:100%;
+  height: 100%;
+  /* margin:50px; */
+  margin:50px 0px;
+}
+#b{
+  grid-area: b;
+  width:100%;
+  height: 100%;
+
+}
+#e{
+  grid-area: e;
+  width:100%;
+  height: 100%;
+}
+#a{
+  grid-area: a;
+  width:100%;
+  height: 100%;
+}
+#c{
+  grid-area: c;
+  width:100%;
+  height: 100%;
+  
+}
+#d{
+  grid-area: d;
+  width:100%;
+  height: 100%;
+}
+
+#div-2{
+  display:grid;
+  grid-gap:5px;
+  grid-template-areas: 
+  "f f f f i i"
+  "f f f f h h"
+  "f f f f g g"
+  "f f f f g g";
+  width:100%;
+  height: 100%;
+  /* margin:50px; */
+  margin:50px 0px;
+}
+#g{
+  grid-area: g;
+  width:100%;
+  height: 100%;
+
+}
+
+#f{
+  grid-area: f;
+  width:100%;
+  height: 100%;
+}
+#h{
+  grid-area: h;
+  width:100%;
+  height: 100%;
+}
+#i{
+  
+  grid-area: i;
+  width:100%;
+  height: 100%;
+}
+
+#div-3{
+  display:grid;
+  grid-gap:5px;
+  grid-template-areas: 
+  "j j m m m m"
+  "k k m m m m"
+  "l l m m m m"
+  "l l n n o o";
+  width:100%;
+  height: 100%;
+  /* margin:50px; */
+  margin:50px 0px;
+}
+
+#j{
+   grid-area: j;
+   width:100%;
+   height: 100%;
+}
+#k{
+  grid-area: k;
+  width:100%;
+  height: 100%;
+}
+#l{
+   grid-area: l;
+   width:100%;
+   height: 100%;
+}
+#m{
+  grid-area: m;
+  width:100%;
+  height: 100%;
+}
+#n{
+  grid-area: n;
+  width:100%;
+  height: 100%;
+}
+#o{
+  grid-area: o;
+  width:100%;
+  height: 100%;
+}
+
+#div-4{
+  display:grid;
+  grid-gap:5px;
+  grid-template-areas: 
+  "p r r t u u"
+  "p r r t u u"
+  "q r r v v v"
+  "q s s v v v";
+  width:100%;
+  height:100%;
+  /* margin:50px; */
+  margin:50px 0px;
+}
+#p{
+  grid-area: p;
+  width:100%;
+  height: 100%;
+}
+#q{
+  grid-area: q;
+  width:100%;
+  height: 100%;
+}
+#r{
+  grid-area: r;
+  width:100%;
+  height: 100%;
+}
+#s{
+  grid-area: s;
+  width:100%;
+  height: 100%;
+}
+#t{
+  grid-area: t;
+  width:100%;
+  height: 100%;
+}
+#u{
+  grid-area: u;
+  width:100%;
+  height: 100%;
+}
+#v{
+  grid-area: v;
+  width:100%;
+  height: 100%;
+}
+footer{
+  background-color: rgb(38, 117, 87);
+  color:white;
+  text-align: center;
+  padding:20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.5em;
+  border-top:white double 2px;
+}
+#mail{
+color:white;
+border:none;
+text-decoration: underline;
+font-size:1em;
+}
+
+@media screen and (max-width:2000px){
+  header{
+    font-size: 2em;
+  }
+  
+}
+
+@media screen and (max-width:1024px){
+  header{
+    font-size: 1.5em;
+  }
+  
+}
+
+@media screen and (max-width:786px){
+  header{
+    font-size: 1em;
+  }
+  
+  nav{
+    width:100%;
+    display:grid;
+    grid-gap:5px;
+    grid-template-areas:
+    "home gallery"
+    "about contact";
+    height:5em;
+    font-size: 0.55em;
+    height:100px;
+    text-align: center;
+  }
+  #home{
+    grid-area:home;
+  }
+  #gallery{
+    grid-area:gallery;
+  }
+  #about{
+    grid-area:about;
+  }
+  #contact{
+    grid-area:contact;
+  }
+  #open-p{
+  display:none;
+}
+#text{
+  font-size: 0.8em;
+}
+footer{
+  font-size: 1em;
+ 
+}
+
+}
+
+  
+  
